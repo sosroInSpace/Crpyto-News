@@ -1,2 +1,2 @@
-# News
-Assortment of latest news chrome extensions
+# BBC News
+Breaking news from BBC
