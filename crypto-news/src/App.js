@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './bbc-icon.png';
 import './App.scss';
 
   /*
@@ -74,7 +73,7 @@ import './App.scss';
         var el = document.createElement('a');
 
       eltwo.textContent = description;
-        el.innerHTML = '<img class="article-image" src=' + img + '></div><span class="bbc-title">' + title + '</span></a><br><span class="description">' + description + '</span><br><a href="' + url + '" target="_blank" class="learn-more">Learn More</a>'  ;
+        el.innerHTML = '<img class="article-image" src=' + img + '></div><span class="bbc-title">' + title + '</span></a><br><span class="description">' + description + '...</span><br><a href="' + url + '" target="_blank" class="learn-more">Learn More</a>'  ;
         el.setAttribute("href", url);
         el.setAttribute("target","_blank");
         el.classList.add("article-linker");
@@ -108,7 +107,7 @@ import './App.scss';
 
         parentEl.children[n].classList.add('resulter');
 
-      }, 7500);
+      }, 15500);
 
     }
 
@@ -119,7 +118,7 @@ import './App.scss';
     window.onload = function () {
 
       var parentEl = document.getElementById('news_2');
-      var newsUrl = 'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=89bf80a13bac4174b9181c4c30b7ad29';
+      var newsUrl = 'https://newsapi.org/v2/top-headlines?sources=crypto-coins-news&apiKey=89bf80a13bac4174b9181c4c30b7ad29';
 
       getJSON(newsUrl, function (err, res) {
 
@@ -143,7 +142,11 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="bbc-logo" />
+            <h1
+            className="crypto-news"
+            >
+              Crypto
+            </h1>
           <h2
             className="breaking-news"
             >

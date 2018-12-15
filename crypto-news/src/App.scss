@@ -6,6 +6,7 @@ $offwhite   : #fdfdfd;
 $red        : #bb1919;
 $font       : 'helvetica', arial, sans-serif;
 $lightgrey  : #eee;
+$pink       : #fd0062;
 
 .App {
     background-color: $background;
@@ -24,6 +25,14 @@ $lightgrey  : #eee;
       margin-bottom:0;
   }
 
+  .crypto-news {
+    color: $white;
+    margin: 0;
+    margin-left: 9px;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+
 
   .article-linker {
     display:none;
@@ -31,7 +40,7 @@ $lightgrey  : #eee;
   }
 
   .article-linker.resulter {
-    animation:firstarticle 7.5s infinite;
+    animation:firstarticle 15.5s infinite;
     animation-fill-mode:forwards;
     animation-timing-function:ease-in-out;
     opacity:0;
@@ -63,7 +72,7 @@ $lightgrey  : #eee;
       text-decoration:none;
   }
   .breaking-news {
-    background: $red;
+    background: $pink;
     color: $offwhite;
     padding: 9px 10px;
     margin-top: 0;
@@ -82,7 +91,7 @@ $lightgrey  : #eee;
   .description {
       font-size: 13px;
       color: #999;
-      width: 67%;
+      width: 90%;
       display: block;
       margin: auto;
   }
@@ -92,7 +101,7 @@ $lightgrey  : #eee;
       margin-top: 15px;
       font-size: 13px;
       padding: 7px 0px;
-      background: $offblack;
+      background: $pink;
       transition: 1s;
       width: 200px;
       margin: auto;
@@ -116,7 +125,8 @@ $lightgrey  : #eee;
     
 
         .bbc-title {
-          padding:8px 0px;
+          padding:8px 20px;
+          box-sizing:border-box;
         }
 
          #news_2 {

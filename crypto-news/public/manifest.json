@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "BBC News",
-  "description": "A simple in browser BBC News application to keep track of breaking news!",
+  "name": "CRYPTO News",
+  "description": "A simple in browser Crypto currency News application.",
   "version": "0.0.2",
 
   "browser_action": {
