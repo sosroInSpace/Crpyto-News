@@ -1,4 +1,4 @@
-#News
+#News#
 An assortment of news applications that can be used as chrome extensions.
 
 #master branch
