@@ -1,8 +1,8 @@
 #News
-- BBC News application that can be used as a chrome extensions.
+- Crypto News application that can be used as a chrome extensions.
 
 #master branch
-- The master branch will contain the application for "BBC Breaking News.
+- The master branch will contain the application for "Crypto Breaking News.
 
 #Installation of chrome extension.
   - Git clone
