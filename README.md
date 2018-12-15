@@ -1,5 +1,5 @@
 #News
-- An assortment of news applications that can be used as chrome extensions.
+- BBC News application that can be used as a chrome extensions.
 
 #master branch
 - The master branch will contain the application for "BBC Breaking News.
